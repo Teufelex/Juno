@@ -1,0 +1,18 @@
+.MainPage {
+    margin-top: 2rem;
+}
+
+.MainPage .MainPage__titleWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/main-logo.png);
+    height: 100vh;
+}
+
+.MainPage .titleWrapper__title {
+    font-size: 4rem;
+    font-weight: normal;
+    color: white;
+}

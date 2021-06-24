@@ -1,0 +1,19 @@
+.Tours {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5vw;
+    justify-content: space-around;
+    padding: 0 50px;
+    margin: 2rem 0;
+}
+
+.Nav_List {
+    display: flex;
+    font-size: 2rem;
+    margin: 0 50%;
+}
+
+.Nav_List > a {
+    text-decoration: none;
+    color: black;
+}

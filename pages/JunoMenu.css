@@ -1,0 +1,11 @@
+.pageMenu {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pageMenu .pageMenu__item {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}

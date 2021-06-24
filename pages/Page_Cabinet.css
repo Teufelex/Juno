@@ -1,0 +1,49 @@
+.PageCabinet .init {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.PageCabinet label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 5px 5vw;
+}
+
+.PageCabinet input {
+    width: 60vw;
+}
+
+.PageCabinet .init__alertMassage {
+    color: red;
+}
+
+.PageCabinet .init__inputWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.PageCabinet .init__submit {
+    display: block;
+    font-size: 1.5rem;
+    width: 30vw;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.PageCabinet .init__input {
+    font-size: 1.2rem;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: text;
+}

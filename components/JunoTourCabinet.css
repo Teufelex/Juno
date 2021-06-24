@@ -1,0 +1,61 @@
+.BookingTours {
+    position: relative;
+}
+
+.BookingTours {
+    display: flex;
+    margin: 20px 0;
+    max-height: 20em;
+    overflow: hidden;
+}
+
+.BookingTours .BookingTours__photo {
+    width: 30vw;
+}
+
+.BookingTours .BookingTours__info {
+    position: relative;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.BookingTours .BookingTours__name {
+    font-size: 2rem;
+}
+
+.BookingTours .BookingTours__description {
+
+}
+
+.BookingTours .BookingTours__price {
+    font-size: 1.5rem;
+}
+
+.BookingTours .BookingTours__delete {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.BookingTours .BookingTours__color {
+    width: 5vw;
+    height: 5vw;
+}
+
+.BookingTours__deleted {
+    animation: close 0.5s linear 1 forwards;
+}
+
+@keyframes close {
+    from {
+        transform: translateZ(0);
+        max-height: 20em;
+        margin: 20px 0;
+    }
+
+    to {
+        transform: translateZ(0);
+        max-height: 0;
+        margin: 0 0;
+    }
+}

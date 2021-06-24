@@ -1,0 +1,20 @@
+.AboutPage {
+    padding: 0 50px;
+    margin: 2rem 0;
+}
+
+.AboutPage .AboutPage__block {
+    display: flex;
+    text-align: left;
+    column-gap: 50px;
+    margin-top: 3rem;
+}
+
+.AboutPage .AboutPage__img {
+    width: 50vw;
+}
+
+.AboutPage p {
+    display: flex;
+    align-items: center;
+}

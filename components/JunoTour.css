@@ -1,0 +1,83 @@
+.toursItem {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.toursItem--active {
+    flex-direction: row;
+    order: 0;
+}
+
+.toursItem .toursItem__photo {
+    width: 30vw;
+    min-width: 30vw;
+    height: 30vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.toursItem .toursItem__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+
+.toursItem .toursItem__name {
+    font-size: 2rem;
+}
+
+.toursItem .toursItem__description {
+
+}
+
+.toursItem .toursItem__price {
+    font-size: 1.5rem;
+}
+
+.toursItem .toursItem__price {
+    font-size: 1.5rem;
+}
+
+.toursItem .toursItem__more {
+    width: 80%;
+}
+
+.toursItem button{
+    font-size: 1.5rem;
+    background-color: rgb(34, 34, 34);
+    color: rgba(255, 255, 255, 0.904);
+    border: none;
+    padding: 10px 0;
+}
+
+.toursItem__activeButtonBlock {
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    margin-bottom: 10vh;
+}
+
+.toursItem__activeButtonBlock button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: rgb(34, 34, 34);
+    color: rgba(255, 255, 255, 0.904);
+    border: none;
+}
+
+.toursItem .toursItem__ticketColors {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2px;
+    width: 40vw;
+    column-gap: 2px;
+}
+
+.toursItem .color {
+    width: 2vw;
+    height: 2vw;
+}

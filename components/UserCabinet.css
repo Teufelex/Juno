@@ -1,0 +1,34 @@
+.UserCabinet {
+    display: flex;
+}
+
+.UserCabinet .UserCabinet__navigation {
+    font-size: 1.5rem;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    width: 30vw;
+    min-height: 66.95vh;
+    padding: 20px 30px;
+    margin-left: -5vw;
+}
+
+.UserCabinet .UserCabinet__navigation li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.UserCabinet .UserCabinet__ClientInfo {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+.UserCabinet .UserCabinet__InfoItem {
+    margin-bottom: 0.5rem;
+    margin-left: 3vw;
+}
+
+.UserCabinet .UserCabinet__InfoItem--active {
+    box-shadow: 1px 6px 10px black;
+    background-color: rgb(77, 77, 77);
+    color: white;
+}
