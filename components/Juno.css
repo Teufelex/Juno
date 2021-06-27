@@ -32,10 +32,15 @@ html, body {
 
 .MainContainer .footer {
     position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 10vh;
     background-color: black;
+    color: rgb(88, 88, 88);
+    padding: 0 20px;
     margin-bottom: -10vh;
 }

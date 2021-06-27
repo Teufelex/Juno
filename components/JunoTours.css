@@ -1,19 +1,40 @@
 .Tours {
     display: flex;
-    flex-wrap: wrap;
-    column-gap: 5vw;
+    column-gap: 3vw;
     justify-content: space-around;
-    padding: 0 50px;
+    padding: 0 2vw;
     margin: 2rem 0;
+}
+
+.Tours__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2vw;
+    margin-top: 2rem;
 }
 
 .Nav_List {
     display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 5px;
     font-size: 2rem;
-    margin: 0 50%;
+    color: rgb(34, 34, 34);
+    padding-bottom: 3vh;
 }
 
 .Nav_List > a {
     text-decoration: none;
     color: black;
+    border-bottom: 1px solid white;
+}
+
+.Nav_List > a:hover {
+    border-bottom: 1px solid black;
+}
+
+.Nav_List .link--active {
+    border-bottom: 1px solid black;
 }

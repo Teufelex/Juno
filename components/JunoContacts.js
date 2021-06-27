@@ -9,19 +9,19 @@ class JunoContacts extends React.PureComponent {
         let contactArr = [];
         this.props.contacts.forEach(b => {
             let block = 
-            <div className = "ContactsPage__MilkyWrapper" key={b.code}>
-                <span>{b.name}: </span>
-                <ul>
+            <div className = "ContactsPage__ContactWrapper" key={b.code}>
+                <span className="ContactWrapper__title">{b.galaxy} Galaxy: </span>
+                <ul className="ContactWrapper__list">
                     <li>
-                        <span>Phone number:</span>
+                        <span><b>Phone number: </b></span>
                         <span>{b.phone}</span>
                     </li>    
                     <li>
-                        <span>Adress:</span> 
+                        <span><b>Adress: </b></span> 
                         <span>{b.adress}</span>
                     </li>    
                     <li>
-                        <span>email:</span> 
+                        <span><b>Email: </b></span> 
                         <span>{b.email}</span>
                     </li>    
                 </ul> 

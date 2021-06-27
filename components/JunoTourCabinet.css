@@ -4,17 +4,22 @@
 
 .BookingTours {
     display: flex;
+    align-items: flex-start;
     margin: 20px 0;
-    max-height: 20em;
+    max-height: 40em;
     overflow: hidden;
 }
 
 .BookingTours .BookingTours__photo {
     width: 30vw;
+    margin-left: 2rem;
+    margin-top: 10px;
 }
 
 .BookingTours .BookingTours__info {
     position: relative;
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
     margin-left: 20px;
 }
@@ -28,22 +33,70 @@
 }
 
 .BookingTours .BookingTours__price {
+    display: block;
     font-size: 1.5rem;
+    align-self: flex-end;
+    padding-top: 10px;
 }
 
 .BookingTours .BookingTours__delete {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.BookingTours .BookingTours__delete:hover {
+    background-color: rgb(182, 182, 182);
+    color: black;
 }
 
 .BookingTours .BookingTours__color {
-    width: 5vw;
-    height: 5vw;
+    width: 20vw;
+    height: 15vw;
 }
 
 .BookingTours__deleted {
     animation: close 0.5s linear 1 forwards;
+}
+
+.BookingTours .BookingTours__layer {
+    background-size: 20%;
+    height: 100%;
+    width: 100%;
+}
+
+.BookingTours .BookingTours__layerLogo {
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.BookingTours .BookingTours__JunoLogo {
+    background-size: 40%;
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.BookingTours .ticket__title {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 @keyframes close {

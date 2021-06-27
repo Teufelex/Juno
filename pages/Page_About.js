@@ -12,37 +12,43 @@ class AboutPage extends React.PureComponent {
                 <div className = "AboutPage__block">
                     <img src="/assets/globe.jpg" className = "AboutPage__img"/>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-                    in reprehenderit in voluptate velit esse cillum dolore eu 
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Добро пожаловать в Juno! Уже 228 лет подряд, мы - самая передовая 
+                    туристическая компания Солнечной Системы, которая предоставит вам 
+                    тур в любой обитаемый (и не очень) космический объект ближнего космоса. 
+                    Все путешествия производятся на кораблях Extra-Luxe класса, 
+                    произведенные компанией "Xpase-S" - лидером по производству летательных 
+                    аппаратов из радиоактивных отходов и тяжелых металлов!
                     </p>
                 </div>
-                <div className = "AboutPage__block">
+                <div className = "AboutPage__block AboutPage__block--reverse">
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-                    in reprehenderit in voluptate velit esse cillum dolore eu 
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    На наших космолетах присутствуют все необходимые системы жизнеобеспечения - вода, 
+                     электричество, газ, бесплатное пиво и безлимитный доступ к спортивным 
+                      каналам (для мужчин), а так же красное вино и бесконечный повтор фильма 
+                      "Титаник" для прекрасной половины населения галактики. На нижних ярусах 
+                      космолета находятся плантации с самыми необходимыми для туристов растениями, 
+                      начиная от красного помидора и заканчивая табаком (не срывайте всё - они же 
+                      обеспечивают нас кислородом!). Для особенных ценителей установлены шезлонги, 
+                      позволяющие вернуться в аутентичную атмосферу родной деревни, а для тех самых, 
+                      кому по карману оценить все преимущества, мы даже выпустим стаю комаров для 
+                      полного погружения.
                     </p>
                     <img src="/assets/plant.jpg" className = "AboutPage__img"/>
                 </div>
                 <div className = "AboutPage__block">
                     <img src="/assets/bedroom.jpg" className = "AboutPage__img"/>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-                    in reprehenderit in voluptate velit esse cillum dolore eu 
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Спальные места на наших космолетах так же оборудованы по высшему разряду. 
+                    Кровати из лучших обшивок разбившихся космолетов, мягкий матрас из шерсти кошки, 
+                    удобная подушка, набитая перьями марсианского голубя, а так же одеяло из 
+                    конопляной пряжи для красочных снов - разве не идеально? В каждой каюте вас 
+                    будет ждать галактическое кабельное с самыми лучшими каналами, для досуга и 
+                    расслабления вашего мозга перед сном. Для самых обеспеченных ценителей полетов 
+                    в космосе будут доступны каюты с видом на звезды, планеты и космический мусор. 
+                    <br/>
+                    <br/>
+                    Путешествуйте с нами и помните - лучшего турагенства вам не найти, 
+                    мы ведь единственные в галактике!
                     </p>
                 </div>
             </div>

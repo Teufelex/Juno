@@ -35,8 +35,12 @@
     color: white;
     border: none;
     padding: 10px;
-    margin: 0 auto;
-    margin-top: 3rem;
+    margin: 3rem auto;
+}
+
+.PageCabinet .init__submit:disabled {
+    background-color: rgb(119, 119, 119);
+    color: rgb(168, 168, 168);
 }
 
 .PageCabinet .init__input {

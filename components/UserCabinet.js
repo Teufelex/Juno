@@ -43,9 +43,9 @@ class UserCabinet extends React.PureComponent {
         if (this.state.workMode === 3) {
             for (let i = 0; i < _com.length; i++) {
                 let block = 
-                <div key = {i}>
-                    <div>{_com[i].name}</div>
-                    <div>{_com[i].text}</div>
+                <div key = {i} className = "Comment__block">
+                    <div className = "Comment__name">{_com[i].name}</div>
+                    <div className = "Comment__text">{_com[i].text}</div>
                 </div>;
                 comments.push(block);
             }
@@ -53,12 +53,11 @@ class UserCabinet extends React.PureComponent {
 
         return (
             <div className="UserCabinet">
-                <nav>
                     <ul className="UserCabinet__navigation">
                         <li 
                             onClick={this.changeWorkMode_1} 
                             className={(this.state.workMode === 1) ? "UserCabinet__InfoItem--active" : ""}
-                        >Booking</li>
+                        >Orders</li>
                         <li 
                             onClick={this.changeWorkMode_2}
                             className={(this.state.workMode === 2) ? "UserCabinet__InfoItem--active" : ""}
@@ -68,8 +67,7 @@ class UserCabinet extends React.PureComponent {
                             className={(this.state.workMode === 3) ? "UserCabinet__InfoItem--active" : ""}
                         >Comments</li>
                     </ul>
-                </nav>
-                <div>
+                    <div>
                     {
                         (this.state.workMode === 1) ? 
                         <Fragment>

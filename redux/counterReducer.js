@@ -51,7 +51,7 @@ function countersReducer(state=initState,action) {
         name: state.junoUserInfo.name, 
         text: action.addvalue, 
         photo: "/assets/user.png",
-        code: state.commentsList[state.commentsList.length - 1].code + 10,
+        code: (state.commentsList) ? state.commentsList[state.commentsList.length - 1].code + 10 : 113,
       }
       let userComments = [...state.junoUserComments, _user];
       let _commentsList = [...state.commentsList, _user];

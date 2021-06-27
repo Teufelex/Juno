@@ -3,10 +3,23 @@
     top: 15px;
     right: 15px;
     display: flex;
+    align-items: center;
+    column-gap: 10px;
 }
 
 .userBlock .userBlock__photo {
     width: 8vmin;
     height: 8vmin;
     margin-right: 15px;
+}
+
+.userBlock .info__name {
+    font-size: 1.3rem;
+    color: black;
+}
+
+.userBlock .userBlock__info {
+    display: flex;
+    flex-direction: column;
+    color: black;
 }

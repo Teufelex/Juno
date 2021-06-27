@@ -1,0 +1,23 @@
+.ContactsPage__ContactWrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.ContactsPage__ContactWrapper .ContactWrapper__title {
+    font-size: 1.5rem;
+}
+
+.ContactsPage__ContactWrapper .ContactWrapper__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+@media (orientation: portrait) {
+    .ContactsPage__ContactWrapper {
+       width: 90vw;
+    }
+}

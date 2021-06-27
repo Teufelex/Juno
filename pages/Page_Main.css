@@ -8,11 +8,28 @@
     justify-content: center;
     align-items: center;
     background-image: url(/assets/main-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(63, 63, 63);
     height: 100vh;
+    width: 100%;
 }
 
 .MainPage .titleWrapper__title {
     font-size: 4rem;
     font-weight: normal;
     color: white;
+    text-align: center;
+}
+
+@media (orientation: portrait) {
+    .MainPage .titleWrapper__title {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .MainPage .MainPage__titleWrapper {
+        height: 60vh;
+     }
 }

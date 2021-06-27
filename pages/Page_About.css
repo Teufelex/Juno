@@ -5,16 +5,46 @@
 
 .AboutPage .AboutPage__block {
     display: flex;
+    align-items: center;
     text-align: left;
     column-gap: 50px;
     margin-top: 3rem;
 }
 
 .AboutPage .AboutPage__img {
-    width: 50vw;
+    width: 40vw;
 }
 
 .AboutPage p {
     display: flex;
     align-items: center;
+}
+
+@media (orientation: portrait) {
+    .AboutPage {
+        padding: 0 20px;
+    }
+
+    .AboutPage .AboutPage__block {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        text-align: left;
+        margin-top: 3rem;
+        text-align: justify;
+    }
+
+    .AboutPage .AboutPage__block--reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: left;
+        text-align: justify;
+        margin-top: 3rem;
+    }
+
+    .AboutPage .AboutPage__img {
+        width: 90vw;
+    }
 }

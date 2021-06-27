@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import PropTypes from "prop-types"; 
 import {connect} from 'react-redux';
+import { Prompt } from 'react-router';
 
 import {userComment_add} from '../redux/countersAC';
 import {DataLoad} from '../redux/fetchThunk';
@@ -16,6 +17,7 @@ class JunoComments extends React.PureComponent {
     state = {
         workMode: 1, // 1 - read, 2 - add
         areaValue: "",
+        isBlocking: false,
     }
 
     componentDidMount() {
@@ -27,20 +29,29 @@ class JunoComments extends React.PureComponent {
     }
 
     textChanged = (e) => {
-        this.setState({areaValue: e.target.value});
+        this.setState({areaValue: e.target.value, isBlocking: true});
     }
 
     saveComment = () => {
         this.props.dispatch(userComment_add(this.state.areaValue));
-        this.setState({workMode: 1});
+        this.setState({workMode: 1, areaValue: ""});
     }
 
     cancel = () => {
-        this.setState({workMode: 1});
+        if (this.state.isBlocking) {
+            if (confirm("This page has unsaved changes. Are you sure you want to leave?"))
+                this.setState({workMode: 1});
+        } else {
+            this.setState({workMode: 1});
+        }
     }
 
     render() {
-        if ( this.props.counters.loadingStat<=1 ) return <div className="lo">загрузка...</div>;
+        if ( this.props.counters.loadingStat<=1 ) return (
+        <div className="loading__wrapper">
+            <div className="lds-dual-ring"></div>
+        </div>
+        );
         if ( this.props.counters.loadingStat===2 ) return "ошибка загрузки данных";
 
         let commentsArr = [];
@@ -70,8 +81,12 @@ class JunoComments extends React.PureComponent {
                     {
                         (this.state.workMode === 2) ? 
                         <div>
+                            <Prompt
+                                when={this.state.isBlocking}
+                                message="This page has unsaved changes. Are you sure you want to leave?"
+                             />  
                             <textarea value={this.state.areaValue} onChange = {this.textChanged}></textarea>
-                            <div>
+                            <div className="Comments__buttonWrapper">
                                 <button onClick = {this.saveComment}>Send</button>
                                 <button onClick = {this.cancel}>Cancel</button>
                             </div>

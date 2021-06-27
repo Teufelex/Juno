@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import PropTypes from "prop-types";
 import {connect} from 'react-redux';
+import { Prompt } from 'react-router';
+import JunoEvents from '../components/events';
 
 import { userName_add } from '../redux/countersAC';
 import UserCabinet from '../components/UserCabinet';
@@ -20,44 +22,58 @@ class PageCabinet extends React.PureComponent {
         surnameValid: null,
         phoneValid: null,
         mailValid: null,
-        pass: false,
+        disabled: true,
+        isBlocking: false,
     }
 
-    nameChanged = (e) => this.setState({nameValue: e.target.value});
+    nameChanged = (e) => this.setState({nameValue: e.target.value, isBlocking: true});
 
-    lastnameChanged = (e) => this.setState({lastnameValue: e.target.value});
+    lastnameChanged = (e) => this.setState({lastnameValue: e.target.value, isBlocking: true});
 
-    surnameChanged = (e) => this.setState({surnameValue: e.target.value});
+    surnameChanged = (e) => this.setState({surnameValue: e.target.value, isBlocking: true});
 
-    checkValueName = () => this.setState({nameValid: this.checkValueStr(this.state.nameValue)});
+    checkValueName = () => this.setState({
+        nameValid: this.checkValueStr(this.state.nameValue)
+    }, this.validAll);
 
-    checkValueLast = () => this.setState({lastnameValid: this.checkValueStr(this.state.lastnameValue)});
+    checkValueLast = () => this.setState({
+        lastnameValid: this.checkValueStr(this.state.lastnameValue)
+    }, this.validAll);
 
-    checkValueSur = () => this.setState({surnameValid: this.checkValueStr(this.state.surnameValue)});
+    checkValueSur = () => this.setState({
+        surnameValid: this.checkValueStr(this.state.surnameValue)}, this.validAll);
 
     checkValueStr = (str) => {
         return (str.trim() === "") ? false : true;
     }
 
-    phoneChanged = (e) => this.setState({phoneValue: e.target.value});
+    phoneChanged = (e) => this.setState({phoneValue: e.target.value, isBlocking: true});
 
     checkValuePhone = () => {
         let res = /^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$/.test(this.state.phoneValue);
-        this.setState({phoneValid: res});
+        this.setState({phoneValid: res}, this.validAll);
     }
 
-    mailChanged = (e) => this.setState({mailValue: e.target.value});
+    mailChanged = (e) => this.setState({mailValue: e.target.value, isBlocking: true});
 
     checkValueMail = () => {
         let res = /.+@.+\..+/i.test(this.state.mailValue);
-        this.setState({mailValid: res});
+        this.setState({mailValid: res}, this.validAll);
     }
 
-    checkAll = () => this.state.nameValid ||
-            this.state.lastnameValid ||
-            this.state.surnameValid ||
-            this.state.phoneValid ||
-            this.state.mailValid;
+    validAll = () => {
+        this.setState({disabled: this.checkAll()});
+    }
+
+    checkAll = () => {
+        return (
+            this.state.nameValid === false || this.state.nameValid === null ||
+            this.state.lastnameValid === false || this.state.lastnameValid === null ||
+            this.state.surnameValid === false || this.state.surnameValid === null ||
+            this.state.phoneValid === false || this.state.phoneValid === null ||
+            this.state.mailValid === false || this.state.mailValid === null 
+        ) ? true : false;
+    };
 
     saveUser = () => {
         let userInfo = {
@@ -67,7 +83,10 @@ class PageCabinet extends React.PureComponent {
             phone: this.state.phoneValue,
             email: this.state.mailValue,
         };
+
+        this.setState({isBlocking: false});
         this.props.dispatch(userName_add(userInfo));
+        JunoEvents.emit("PageBlocked");
     }
 
     render() {
@@ -82,6 +101,10 @@ class PageCabinet extends React.PureComponent {
                 </div> 
                 :
                 <div className = "PageCabinet__initialization">
+                    <Prompt
+                        when={this.state.isBlocking}
+                        message="This page has unsaved changes. Are you sure you want to leave?"
+                    />
                     <div className = "init">
                         <label>Name: 
                             <div className="init__inputWrapper">
@@ -96,7 +119,7 @@ class PageCabinet extends React.PureComponent {
                                 {
                                     (this.state.nameValid === false) ?
                                     <span className="init__alertMassage">
-                                    *Warn
+                                    *Invalid value. Shouldn't be an empty string 
                                     </span> : ""
                                 }
                             </div>
@@ -114,7 +137,7 @@ class PageCabinet extends React.PureComponent {
                                 {
                                     (this.state.surnameValid === false) ?
                                     <span className="init__alertMassage">
-                                    *Warn
+                                    *Invalid value. Shouldn't be an empty string 
                                     </span> : ""
                                 }
                             </div>
@@ -132,7 +155,7 @@ class PageCabinet extends React.PureComponent {
                                 {
                                     (this.state.lastnameValid === false) ?
                                     <span className="init__alertMassage">
-                                    *Warn
+                                    *Invalid value. Shouldn't be an empty string 
                                     </span> : ""
                                 }
                             </div>
@@ -150,7 +173,7 @@ class PageCabinet extends React.PureComponent {
                                 {
                                     (this.state.phoneValid === false) ?
                                     <span className="init__alertMassage">
-                                    *Warn
+                                    *Invalid Phone Value 
                                     </span> : ""
                                 }
                             </div>
@@ -168,12 +191,18 @@ class PageCabinet extends React.PureComponent {
                                 {
                                     (this.state.mailValid === false) ?
                                     <span className="init__alertMassage">
-                                    *Warn
+                                    *Invalid Email Value. Shoud consist "@" and "."
                                     </span> : ""
                                 }
                             </div>
                         </label>
-                        <input type="button" value="Done" onClick = {this.saveUser} className = "init__submit"/>
+                        <input 
+                            type="button" 
+                            value="Done" 
+                            disabled = {this.state.disabled}
+                            onClick = {this.saveUser} 
+                            className = "init__submit"
+                        />
                     </div>
                 </div>
                 }

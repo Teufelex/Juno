@@ -32,8 +32,12 @@ class JunoTourCabinet extends React.PureComponent {
 
     componentDidUpdate = () => {
         if (this.state.isDeleted) {
-            this.itemRef.classList.add("BookingTours__deleted");
-            setTimeout(this.deleteMyself, 1000);
+            if (confirm("Are you want to delete?")) {
+                this.itemRef.classList.add("BookingTours__deleted");
+                setTimeout(this.deleteMyself, 1000);
+            } else {
+                this.setState({isDeleted: false});
+            }
         }
     }
 
@@ -45,14 +49,29 @@ class JunoTourCabinet extends React.PureComponent {
                 <div className="BookingTours__info">
                     <span className="BookingTours__name">{this.props.tour.name}</span>
                     <p className="BookingTours__description">{this.props.tour.description}</p>
-                    <span className="BookingTours__price">{this.props.tour.price}</span>
+                    
                     <div>
-                        Ticket color: 
+                        <span className="ticket__title">Your Personal Ticket:</span> 
                         <div className="BookingTours__color" 
                             style={{ backgroundColor: `${this.props.tour.color}` }}
-                        ></div>
+                        >
+                            <div className="BookingTours__layer"
+                            style = {{backgroundImage: `url(${"/assets/Star_background.svg"})`}}
+                            >
+                                <div className="BookingTours__layerLogo"
+                                style = {{backgroundImage: `url(${this.props.tour.logo})`}}
+                                >
+                                    <div className="BookingTours__JunoLogo"
+                                    style = {{backgroundImage: `url(${"/assets/juno-ltd-logo-vector.svg"})`}}
+                                    >
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <button onClickCapture={this.buttonPressed} className="BookingTours__delete">x</button>
+                    <span className="BookingTours__price">{this.props.tour.price + " $"}</span>
+                    <button onClickCapture={this.buttonPressed} className="BookingTours__delete">×</button>
                 </div>
             </div>
         );

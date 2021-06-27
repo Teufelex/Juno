@@ -1,0 +1,1724 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`работа JunoTour 1`] = `
+<div
+  className=""
+>
+  <div
+    className="toursItem"
+  >
+    <div
+      className="toursItem__photo"
+      style={
+        Object {
+          "backgroundImage": "url(/assets/mars_tours.png)",
+        }
+      }
+    />
+    <div
+      className="toursItem__info"
+    >
+      <span
+        className="toursItem__name"
+      >
+        Mars
+      </span>
+      
+      
+      <span
+        className="toursItem__price"
+      >
+        9586 $
+      </span>
+      <button
+        className="toursItem__more"
+        onClick={[Function]}
+      >
+        Read More
+      </button>
+    </div>
+  </div>
+  
+  
+</div>
+`;
+
+exports[`работа JunoTour 2`] = `
+<div
+  className=""
+>
+  <div
+    className="toursItem"
+  >
+    <div
+      className="toursItem__photo"
+      style={
+        Object {
+          "backgroundImage": "url(/assets/mars_tours.png)",
+        }
+      }
+    />
+    <div
+      className="toursItem__info"
+    >
+      <span
+        className="toursItem__name"
+      >
+        Mars
+      </span>
+      
+      
+      <span
+        className="toursItem__price"
+      >
+        9586 $
+      </span>
+      <button
+        className="toursItem__more"
+        onClick={[Function]}
+      >
+        Read More
+      </button>
+    </div>
+  </div>
+  
+  
+</div>
+`;
+
+exports[`работа JunoTour 3`] = `
+<div
+  className="toursItem--viewed"
+>
+  <div
+    className="toursItem toursItem--active"
+  >
+    <div
+      className="toursItem__photo"
+      style={
+        Object {
+          "backgroundImage": "url(/assets/mars_tours.png)",
+        }
+      }
+    />
+    <div
+      className="toursItem__info"
+    >
+      <span
+        className="toursItem__name"
+      >
+        Mars
+      </span>
+      <p
+        className="toursItem__description"
+      >
+        Красные пески, крутые горы и кратеры. Прохладная погода (всего то -80, в Сибири и холоднее бывает) помогает забыть жаркие тропические леса земли и насладиться пустынным пейзажем. Для рядового землянина дышать тяжело, но можно, альпинисты счастливы. Местное население - зеленые карликовые человечки - дружелюбны и приветливы: угощают песчаными булочками и песчаными голубцами. Отличное место для Вашего отдыха за небольшие деньги. 8.5/10.
+      </p>
+      
+      <span
+        className="toursItem__price--active"
+      >
+        9586 $
+      </span>
+      
+    </div>
+  </div>
+  
+  <div
+    className="toursItem__activeButtonBlock"
+  >
+    <a
+      aria-current={false}
+      className={undefined}
+      href="/cabinet"
+      onClick={[Function]}
+      style={undefined}
+    >
+      <button
+        className="toursItem__signIn"
+        onClick={undefined}
+      >
+        Log In!
+      </button>
+    </a>
+    <button
+      className="toursItem__cancel"
+      onClick={[Function]}
+    >
+      Cancel
+    </button>
+  </div>
+</div>
+`;
+
+exports[`работа JunoTour 4`] = `
+<div
+  className="toursItem--viewed"
+>
+  <div
+    className="toursItem toursItem--active"
+  >
+    <div
+      className="toursItem__photo"
+      style={
+        Object {
+          "backgroundImage": "url(/assets/mars_tours.png)",
+        }
+      }
+    />
+    <div
+      className="toursItem__info"
+    >
+      <span
+        className="toursItem__name"
+      >
+        Mars
+      </span>
+      <p
+        className="toursItem__description"
+      >
+        Красные пески, крутые горы и кратеры. Прохладная погода (всего то -80, в Сибири и холоднее бывает) помогает забыть жаркие тропические леса земли и насладиться пустынным пейзажем. Для рядового землянина дышать тяжело, но можно, альпинисты счастливы. Местное население - зеленые карликовые человечки - дружелюбны и приветливы: угощают песчаными булочками и песчаными голубцами. Отличное место для Вашего отдыха за небольшие деньги. 8.5/10.
+      </p>
+      <span
+        className="toursItem__ticketColorsTitle"
+      >
+        Choose your personal ticket color:
+      </span>
+      <div
+        className="toursItem__ticketColors"
+      >
+        <div
+          className="color"
+          data-color="#000000"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#000000",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FFFFFF"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF0000"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF0000",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FFFF00"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFF00",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF1869"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF1869",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#A4FF18"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#A4FF18",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#18FF93"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#18FF93",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#1B18FF"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#1B18FF",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#C0C0C0"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#C0C0C0",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#808080"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#808080",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#800000"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#800000",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#808000"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#808000",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#008000"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#008000",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#800080"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#800080",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#008080"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#008080",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#000080"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#000080",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#A52A2A"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#A52A2A",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#DC143C"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#DC143C",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF7F50"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF7F50",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF6347"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF6347",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#CD5C5C"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#CD5C5C",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#F08080"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#F08080",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#E9967A"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#E9967A",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FA8072"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FA8072",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FFA07A"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFA07A",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF4500"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF4500",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF8C00"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF8C00",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FFA500"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFA500",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FFD700"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFD700",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#DAA520"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#DAA520",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#EEE8AA"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#EEE8AA",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#BDB76B"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#BDB76B",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#F0E68C"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#F0E68C",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#808000"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#808000",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#9ACD32"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#9ACD32",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#7CFC00"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#7CFC00",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#ADFF2F"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#ADFF2F",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#008000"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#008000",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#00FF00"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#00FF00",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#32CD32"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#32CD32",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#90EE90"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#90EE90",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#00FA9A"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#00FA9A",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#00FF7F"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#00FF7F",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#66CDAA"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#66CDAA",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#20B2AA"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#20B2AA",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#2F4F4F"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#2F4F4F",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#00FFFF"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#00FFFF",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#E0FFFF"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#E0FFFF",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#00CED1"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#00CED1",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#7FFFD4"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#7FFFD4",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#4682B4"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#4682B4",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#6495ED"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#6495ED",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#1E90FF"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#1E90FF",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#87CEFA"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#87CEFA",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#191970"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#191970",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#00008B"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#00008B",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#0000FF"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#0000FF",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#8A2BE2"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#8A2BE2",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#4B0082"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#4B0082",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#483D8B"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#483D8B",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#7B68EE"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#7B68EE",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#8B008B"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#8B008B",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#9932CC"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#9932CC",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#BA55D3"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#BA55D3",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#DDA0DD"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#DDA0DD",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#EE82EE"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#EE82EE",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF00FF"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF00FF",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#C71585"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#C71585",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF1493"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF1493",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF69B4"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF69B4",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FFB6C1"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFB6C1",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FFE4C4"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFE4C4",
+            }
+          }
+        />
+      </div>
+      <span
+        className="toursItem__price--active"
+      >
+        9586 $
+      </span>
+      
+    </div>
+  </div>
+  <div
+    className="toursItem__activeButtonBlock"
+  >
+    <button
+      className="toursItem__order"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Order
+    </button>
+    <button
+      className="toursItem__cancel"
+      onClick={[Function]}
+    >
+      Cancel
+    </button>
+  </div>
+  
+</div>
+`;
+
+exports[`работа JunoTour 5`] = `
+<div
+  className="toursItem--viewed"
+>
+  <div
+    className="toursItem toursItem--active"
+  >
+    <div
+      className="toursItem__photo"
+      style={
+        Object {
+          "backgroundImage": "url(/assets/mars_tours.png)",
+        }
+      }
+    />
+    <div
+      className="toursItem__info"
+    >
+      <span
+        className="toursItem__name"
+      >
+        Mars
+      </span>
+      <p
+        className="toursItem__description"
+      >
+        Красные пески, крутые горы и кратеры. Прохладная погода (всего то -80, в Сибири и холоднее бывает) помогает забыть жаркие тропические леса земли и насладиться пустынным пейзажем. Для рядового землянина дышать тяжело, но можно, альпинисты счастливы. Местное население - зеленые карликовые человечки - дружелюбны и приветливы: угощают песчаными булочками и песчаными голубцами. Отличное место для Вашего отдыха за небольшие деньги. 8.5/10.
+      </p>
+      <span
+        className="toursItem__ticketColorsTitle"
+      >
+        Choose your personal ticket color:
+      </span>
+      <div
+        className="toursItem__ticketColors"
+      >
+        <div
+          className="color"
+          data-color="#000000"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#000000",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FFFFFF"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF0000"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF0000",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FFFF00"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFF00",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF1869"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF1869",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#A4FF18"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#A4FF18",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#18FF93"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#18FF93",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#1B18FF"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#1B18FF",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#C0C0C0"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#C0C0C0",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#808080"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#808080",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#800000"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#800000",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#808000"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#808000",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#008000"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#008000",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#800080"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#800080",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#008080"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#008080",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#000080"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#000080",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#A52A2A"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#A52A2A",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#DC143C"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#DC143C",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF7F50"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF7F50",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF6347"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF6347",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#CD5C5C"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#CD5C5C",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#F08080"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#F08080",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#E9967A"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#E9967A",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FA8072"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FA8072",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FFA07A"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFA07A",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF4500"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF4500",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF8C00"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF8C00",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FFA500"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFA500",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FFD700"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFD700",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#DAA520"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#DAA520",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#EEE8AA"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#EEE8AA",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#BDB76B"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#BDB76B",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#F0E68C"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#F0E68C",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#808000"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#808000",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#9ACD32"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#9ACD32",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#7CFC00"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#7CFC00",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#ADFF2F"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#ADFF2F",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#008000"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#008000",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#00FF00"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#00FF00",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#32CD32"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#32CD32",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#90EE90"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#90EE90",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#00FA9A"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#00FA9A",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#00FF7F"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#00FF7F",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#66CDAA"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#66CDAA",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#20B2AA"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#20B2AA",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#2F4F4F"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#2F4F4F",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#00FFFF"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#00FFFF",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#E0FFFF"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#E0FFFF",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#00CED1"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#00CED1",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#7FFFD4"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#7FFFD4",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#4682B4"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#4682B4",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#6495ED"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#6495ED",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#1E90FF"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#1E90FF",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#87CEFA"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#87CEFA",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#191970"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#191970",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#00008B"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#00008B",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#0000FF"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#0000FF",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#8A2BE2"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#8A2BE2",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#4B0082"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#4B0082",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#483D8B"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#483D8B",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#7B68EE"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#7B68EE",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#8B008B"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#8B008B",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#9932CC"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#9932CC",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#BA55D3"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#BA55D3",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#DDA0DD"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#DDA0DD",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#EE82EE"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#EE82EE",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF00FF"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF00FF",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#C71585"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#C71585",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF1493"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF1493",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FF69B4"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FF69B4",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FFB6C1"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFB6C1",
+            }
+          }
+        />
+        <div
+          className="color"
+          data-color="#FFE4C4"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFE4C4",
+            }
+          }
+        />
+      </div>
+      <span
+        className="toursItem__price--active"
+      >
+        9586 $
+      </span>
+      
+    </div>
+  </div>
+  <div
+    className="toursItem__activeButtonBlock"
+  >
+    <button
+      className="toursItem__order"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Order
+    </button>
+    <button
+      className="toursItem__cancel"
+      onClick={[Function]}
+    >
+      Cancel
+    </button>
+  </div>
+  
+</div>
+`;
